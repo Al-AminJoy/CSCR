@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<link rel="stylesheet" type="text/css" href="about-us.css">
+	<script type="text/javascript">
+		function getResult(){
+				 var students_class=parseInt(document.result.students_class.value);
+				 var roll=parseInt(document.result.students_roll.value);
+				
+		}
+	</script>
+</head>
+<body>
+<marquee><h2>Collectorate School & College,Rangpur</h2></marquee>
+ <ul>
+ 	<li><a href="index.html">Home</a></li>
+ 	<li><a href="about-us.html">About Us</a></li>
+ 	<li><a href="mission.html">Mission</a></li>
+ 	<li><a href="vision.html">Vision</a></li>
+ 	<li><a href="result.html">Result</a></li>
+ 
+ 	<li class="dropdown">
+ 		<a class="dropbtn" href="javascript:void(0)">Facilities</a>
+ 		<div class="dropdown-content">
+ 			<a href="library.html">Library</a>
+ 			<a href="lab.html">Laboratory</a>
+ 		</div>
+
+ 	</li>
+ </ul>
+<br/>
+	<form class="result-form" name="result">
+	Class : <input  type="text" name="students_class"><br/><br/>
+	Roll: <input type="text" name="students_roll"><br/>
+	<br/>
+	<button type="Submit" name="btn" onclick="getResult()">Submit</button>
+</form>
+<div id="footer">Copyright &copy; 2020 Md.Al-Amin</div>
+</body>
+</html>
